@@ -1,0 +1,101 @@
+/* Umum */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+/* Section */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+/* Skill */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+}
+
+/* Portfolio */
+#portfolio .project {
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+#portfolio img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Form Kontak */
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+form button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
