@@ -1,64 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Sederhana</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Amar</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Amar Dev</h1>
-    <p>Web Developer | Membuat Website Keren untuk Semua</p>
-  </header>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="assets/images/angga_photo.jpg" alt="Foto Profil" class="profile-img">
+                <h1>Angga Pamungkas</h1>
+                <p>Web Developer | Educator</p>
+            </div>
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang web developer profesional dengan pengalaman dalam membangun website modern dan responsif. Saya suka berbagi ilmu tentang coding dan pengembangan website untuk pemula.</p>
+            <h2>Keahlian</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </aside>
 
-  <!-- Tentang Saya -->
-  <section id="about">
-    <h2>Tentang Saya</h2>
-    <p>Saya adalah seorang web developer yang fokus pada pengembangan website modern dan responsif.</p>
-  </section>
+        <main class="main-content">
+            <section id="experience">
+                <h2>Pengalaman Kerja</h2>
+                <ul>
+                    <li class="experience-item">
+                        <h3>Senior Web Developer</h3>
+                        <p>PT Digital Kreatif - 2020 hingga sekarang</p>
+                    </li>
+                    <li class="experience-item">
+                        <h3>Freelance Web Developer</h3>
+                        <p>2017 - 2020</p>
+                    </li>
+                </ul>
+            </section>
 
-  <!-- Skill -->
-  <section id="skills">
-    <h2>Skill</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </section>
+            <section id="education">
+                <h2>Pendidikan</h2>
+                <ul>
+                    <li class="education-item">
+                        <h3>Sarjana Teknik Informatika</h3>
+                        <p>Universitas Teknologi Yogyakarta - 2013 hingga 2017</p>
+                    </li>
+                </ul>
+            </section>
 
-  <!-- Portfolio -->
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="project">
-      <img src="assets/images/project1.webp" alt="Proyek 1">
-      <h3>Proyek 1</h3>
-      <p>Deskripsi singkat tentang proyek ini.</p>
+            <section id="projects">
+                <h2>Project</h2>
+                <div class="project-item">
+                    <h3>Website E-Commerce</h3>
+                    <p>Membangun website e-commerce dengan fitur lengkap menggunakan React dan Node.js.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Portfolio Designer</h3>
+                    <p>Website untuk menampilkan karya-karya desain grafis seorang freelancer.</p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Kontak</h2>
+                <p>Email: amar@example.com</p>
+                <p>LinkedIn: <a href="#">linkedin.com/in/amar</a></p>
+                <p>GitHub: <a href="#">github.com/amar</a></p>
+            </section>
+        </main>
     </div>
-    <div class="project">
-      <img src="assets/images/project2.webp" alt="Proyek 2">
-      <h3>Proyek 2</h3>
-      <p>Deskripsi singkat tentang proyek ini.</p>
-    </div>
-  </section>
 
-  <!-- Kontak -->
-  <section id="contact">
-    <h2>Kontak</h2>
-    <form action="#">
-      <label for="name">Nama:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <button type="submit">Kirim</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Amar Dev. Semua Hak Dilindungi.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Amar. All rights reserved.</p>
+    </footer>
 </body>
 </html>
